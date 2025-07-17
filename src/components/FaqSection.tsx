@@ -40,16 +40,16 @@ const FaqSection: React.FC = () => {
 
     return (
         // Elemento da seção com a referência para a animação.
-        <section id="faq" ref={sectionRef} className="min-h-screen flex items-center bg-brand-light dark:bg-brand-dark overflow-hidden">
+        <section id="faq" ref={sectionRef} className="flex items-center bg-brand-light dark:bg-brand-dark overflow-hidden my-20">
             <div className="container mx-auto px-6 py-20 lg:py-0">
                 {/* Grid de duas colunas para o layout */}
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
                     {/* Coluna da Imagem (à esquerda) */}
                     <div className={`flex justify-center items-center ${getTransitionClasses('delay-200')}`}>
                         <img
-                            src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop"
+                            src="src/img/img-notebook.png"
                             alt="Laptop em uma mesa exibindo um site de negócios"
-                            className="w-full max-w-xl drop-shadow-lg rounded-lg"
+                            
                         />
                     </div>
 

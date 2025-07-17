@@ -45,9 +45,9 @@ const ResponsiveSitesSection: React.FC = () => {
                 {/* Imagem no topo */}
                 <div className={`flex justify-center items-center mb-12 lg:mb-16 ${getTransitionClasses('delay-100')}`}>
                     <img
-                        src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop"
+                        src="src/img/img-responsivo.png"
                         alt="Equipe de desenvolvimento colaborando em um projeto de site responsivo"
-                        className="w-full max-w-4xl drop-shadow-2xl rounded-lg"
+                    
                     />
                 </div>
 

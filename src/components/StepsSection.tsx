@@ -75,9 +75,9 @@ const StepsSection: React.FC = () => {
                     {/* Coluna da Imagem (à direita) */}
                     <div className={`flex justify-center items-center ${getTransitionClasses('delay-200')}`}>
                         <img
-                            src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=2070&auto=format&fit=crop"
+                            src="src/img/img-site.png"
                             alt="Laptop exibindo linhas de código em um ambiente de desenvolvimento"
-                            className="w-full max-w-xl drop-shadow-2xl rounded-lg"
+                            className="w-3/4  "
                         />
                     </div>
                 </div>

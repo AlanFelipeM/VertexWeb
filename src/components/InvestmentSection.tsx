@@ -68,9 +68,9 @@ const InvestmentSection: React.FC = () => {
                     {/* Coluna da Imagem (à direita) */}
                     <div className={`flex justify-center items-center ${getTransitionClasses('delay-200')}`}>
                         <img
-                            src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1974&auto=format&fit=crop"
+                            src="src/img/img-celular.png"
                             alt="Design responsivo exibido em um laptop e um tablet, demonstrando a importância do investimento em sites mobile-friendly"
-                            className="w-full max-w-lg drop-shadow-2xl rounded-lg"
+                            
                         />
                     </div>
                 </div>

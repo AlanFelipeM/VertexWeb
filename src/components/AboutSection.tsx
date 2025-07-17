@@ -57,7 +57,7 @@ const AboutSection: React.FC = () => {
         <section id="about" ref={sectionRef} className="min-h-screen flex items-center bg-brand-light-2 dark:bg-brand-dark-2 overflow-hidden">
             <div className="container mx-auto px-6 py-20 lg:py-0">
                 {/* Parte Superior: Texto e Imagem */}
-                <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center mb-20 lg:mb-28">
+                <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center mb-5 lg:mb-5">
                     {/* Lado esquerdo: Textos */}
                     <div className={getTransitionClasses('delay-100')}>
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-snug">
@@ -81,9 +81,9 @@ const AboutSection: React.FC = () => {
                     {/* Lado direito: Imagem */}
                     <div className={`flex justify-center items-center ${getTransitionClasses('delay-200')}`}>
                         <img 
-                            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop" 
+                            src="/src/img/img-tableteecel.png" 
                             alt="Equipe colaborando em um projeto de web design" 
-                            className="w-full max-w-lg rounded-lg shadow-2xl"
+                            className="w-full max-w-lg"
                         />
                     </div>
                 </div>

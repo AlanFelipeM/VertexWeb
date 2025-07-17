@@ -1,8 +1,8 @@
 // Importa o React e os hooks necessários para animação.
 import React, { useState, useEffect, useRef } from 'react';
 
-// Define o componente da segunda seção de Call-to-Action (CTA).
-const CtaSection2: React.FC = () => {
+// Define o componente da seção de Call-to-Action (CTA).
+const CtaSection: React.FC = () => {
     // Referência ao elemento da seção para o IntersectionObserver.
     const sectionRef = useRef<HTMLDivElement>(null);
     // Estado para controlar a visibilidade da seção e disparar a animação.
@@ -39,7 +39,7 @@ const CtaSection2: React.FC = () => {
         // 'bg-fixed' mantém a imagem fixa em relação à viewport, criando o efeito de parallax quando a página rola.
         <div
             className="bg-cover bg-center bg-fixed"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop')" }}
+            style={{ backgroundImage: 'url("src/img/img-fundo.png")' }}
         >
             {/* Container do conteúdo que ocupa a altura total da tela e centraliza o conteúdo. */}
             <div ref={sectionRef} className="bg-black/60 backdrop-blur-sm min-h-screen flex items-center justify-center">
@@ -51,7 +51,7 @@ const CtaSection2: React.FC = () => {
                         }`}
                     >
                         <h2 className="text-3xl lg:text-4xl font-bold text-white mb-8 leading-tight">
-                            Sites Responsivos para atualizar a sua empresa!
+                            Precisa de um site de qualidade com foco em resultados?
                         </h2>
                         <a
                             href="#contact"
@@ -66,4 +66,4 @@ const CtaSection2: React.FC = () => {
     );
 };
 
-export default CtaSection2;
+export default CtaSection;

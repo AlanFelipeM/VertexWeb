@@ -1,5 +1,7 @@
 // Importa o React para criar componentes.
-import React from 'react';
+
+import React from 'react'
+
 
 // Define o componente HeroSection.
 const HeroSection: React.FC = () => {
@@ -21,11 +23,11 @@ const HeroSection: React.FC = () => {
             </p>
         </div>
 
-        <div className="mt-12 z-10 w-full max-w-5xl mx-auto animate-fade-in-up opacity-0 [animation-delay:0.5s]">
+        <div className="mt-12 z-10 w-full [animation-delay:0.5s]">
              <img 
-                src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=2070&auto=format&fit=crop" 
+                src="src/img/img-home.png"
                 alt="Área de trabalho com múltiplos dispositivos exibindo um projeto de design de interface"
-                className="w-full h-auto drop-shadow-2xl"
+                className="w-1/2 mx-auto"
             />
         </div>
     </section>

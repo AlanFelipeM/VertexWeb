@@ -1,19 +1,19 @@
 // Importa o React e os componentes de cada seção da página.
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import FaqSection from './components/FaqSection';
-import CtaSection from './components/CtaSection';
-import StepsSection from './components/StepsSection';
-import CtaSection2 from './components/CtaSection2';
-import ResponsiveSitesSection from './components/ResponsiveSitesSection';
-import InvestmentSection from './components/InvestmentSection';
-import ServicesSection from './components/ServicesSection';
-import ProjectsSection from './components/ProjectsSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import Footer from './components/Footer';
-import LoadingScreen from './components/LoadingScreen';
+import Header from './src/components/Header';
+import HeroSection from './src/components/HeroSection';
+import AboutSection from './src/components/AboutSection';
+import FaqSection from './src/components/FaqSection';
+import CtaSection from './src/components/CtaSection';
+import StepsSection from './src/components/StepsSection';
+import CtaSection2 from './src/components/CtaSection2';
+import ResponsiveSitesSection from './src/components/ResponsiveSitesSection';
+import InvestmentSection from './src/components/InvestmentSection';
+import ServicesSection from './src/components/ServicesSection';
+import ProjectsSection from './src/components/ProjectsSection';
+import TestimonialsSection from './src/components/TestimonialsSection';
+import Footer from './src/components/Footer';
+import LoadingScreen from './src/components/LoadingScreen';
 
 // Define o componente principal 'App' como um Functional Component (FC) do React.
 const App: React.FC = () => {
