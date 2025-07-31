@@ -1,7 +1,6 @@
 
 // Importa o React, hooks e o componente de ícone.
 import React, { useState, useEffect, useRef } from 'react';
-import { GlobeIcon } from './IconComponents';
 
 // Define o componente Footer.
 const Footer: React.FC = () => {
@@ -46,8 +45,8 @@ const Footer: React.FC = () => {
                     {/* Coluna 1: Marca e descrição (ocupa 2 colunas em telas médias) */}
                     <div className={`md:col-span-2 lg:col-span-1 ${getTransitionClasses('delay-100')}`}>
                         <a href="#home" className="flex items-center space-x-2 mb-4">
-                            <GlobeIcon className="w-8 h-8 text-brand-light-purple" />
-                            <span className="text-2xl font-bold text-gray-900 dark:text-white">Vertex Web</span>
+                            <img src="src/img/Logo sem nome.png" alt="Logo Vertex Tech" className="w-8 h-8" />
+                            <span className="text-2xl font-bold text-gray-900 dark:text-white">Vertex Tech</span>
                         </a>
                         <p className="text-gray-600 dark:text-gray-400">
                             Transformando ideias em soluções digitais inovadoras!
@@ -68,7 +67,7 @@ const Footer: React.FC = () => {
                     <div className={getTransitionClasses('delay-300')}>
                         <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-4">Contato</h4>
                         <ul className="space-y-3">
-                            <li><a href="mailto:vertexweb@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-custom-purple-1 dark:hover:text-white transition-colors">vertexweb@gmail.com</a></li>
+                            <li><a href="mailto:vertextech@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-custom-purple-1 dark:hover:text-white transition-colors">vertextech@gmail.com</a></li>
                             <li><a href="tel:+5511999999999" className="text-gray-600 dark:text-gray-400 hover:text-custom-purple-1 dark:hover:text-white transition-colors">(11) 99999-9999</a></li>
                             <li className="text-gray-600 dark:text-gray-400">São Roque, SP - Brasil</li>
                         </ul>
@@ -88,7 +87,7 @@ const Footer: React.FC = () => {
                 {/* Seção inferior do footer com direitos autorais e links de política */}
                 <div className={`mt-12 pt-8 border-t border-gray-200 dark:border-gray-800/50 flex flex-col sm:flex-row justify-between items-center text-center sm:text-left ${getTransitionClasses('delay-500')}`}>
                     <p className="text-gray-500 dark:text-gray-500 mb-4 sm:mb-0">
-                        © {new Date().getFullYear()} Vertex Web. Todos os direitos reservados
+                        © {new Date().getFullYear()} Vertex Tech. Todos os direitos reservados
                     </p>
                     <div className="flex space-x-6">
                         <a href="#" className="text-gray-500 dark:text-gray-500 hover:text-custom-purple-1 dark:hover:text-white transition-colors">Política de Privacidade</a>

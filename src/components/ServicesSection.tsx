@@ -64,7 +64,7 @@ const ServicesSection: React.FC = () => {
                 {/* Título da seção com animação */}
                 <div className={getTransitionClasses('text-center mb-16', 'delay-100')}>
                     <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
-                        Confira outras especialidades da <span className="text-brand-light-purple">Vertex Web</span>
+                        Confira outras especialidades da <span className="text-brand-light-purple">Vertex Tech</span>
                     </h2>
                      <div className="w-48 h-1 bg-brand-light-purple mx-auto mt-4 rounded-full"></div>
                 </div>

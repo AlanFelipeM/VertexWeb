@@ -1,6 +1,6 @@
 // Importa o React e os hooks useState e useEffect, além dos ícones necessários.
 import React, { useState, useEffect } from 'react';
-import { GlobeIcon, MenuIcon, XIcon, SunIcon, MoonIcon } from './IconComponents';
+import { MenuIcon, XIcon, SunIcon, MoonIcon } from './IconComponents';
 
 // Define a estrutura de dados para os links de navegação.
 const navLinks = [
@@ -45,8 +45,8 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
         <div className="flex items-center justify-between">
           {/* Logo e nome da empresa */}
           <a href="#home" className="flex items-center space-x-2">
-            <GlobeIcon className="w-8 h-8 text-brand-light-purple" />
-            <span className="text-2xl font-bold text-gray-900 dark:text-white">Vertex Web</span>
+            <img src="src/img/Logo sem nome.png" alt="Logo Vertex Tech" className="w-8 h-8" />
+            <span className="text-2xl font-bold text-gray-900 dark:text-white">Vertex Tech</span>
           </a>
 
           {/* Navegação para telas grandes (desktop) */}

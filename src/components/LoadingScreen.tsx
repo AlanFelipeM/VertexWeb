@@ -1,7 +1,6 @@
 
 // Importa o React e o componente de ícone necessário.
 import React from 'react';
-import { GlobeIcon } from './IconComponents';
 
 // Define a interface para as propriedades do componente de tela de carregamento.
 interface LoadingScreenProps {
@@ -25,12 +24,12 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ isFinished }) => {
                 <div className="absolute w-40 h-40 border-t-2 border-brand-light-purple rounded-full animate-spin-slow"></div>
                 <div className="absolute w-56 h-56 border-b-2 border-brand-light-blue rounded-full animate-spin-slow-reverse"></div>
                 {/* Ícone da logo */}
-                <GlobeIcon className="w-24 h-24 text-white relative" />
+                <img src="src/img/Logo sem nome.png" alt="Logo Vertex Tech"className="w-24 h-24 relative" />
             </div>
             {/* Container para o texto, que aparece com um efeito de fade-in para cima */}
             <div className="text-center mt-8 animate-fade-in-up opacity-0">
                 <h1 className="text-4xl font-bold text-white tracking-widest">
-                    Vertex Web
+                    Vertex Tech
                 </h1>
             </div>
         </div>

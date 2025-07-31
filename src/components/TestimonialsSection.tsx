@@ -35,7 +35,7 @@ const TestimonialsSection: React.FC = () => {
     // Array de objetos contendo os dados de cada depoimento.
     const testimonials = [
         {
-            quote: "A equipe da Vertex Web superou todas as nossas expectativas. O profissionalismo, a atenção aos detalhes e a entrega no prazo foram impecáveis. Nosso novo site elevou a presença digital da nossa advocacia.",
+            quote: "A equipe da Vertex Tech superou todas as nossas expectativas. O profissionalismo, a atenção aos detalhes e a entrega no prazo foram impecáveis. Nosso novo site elevou a presença digital da nossa advocacia.",
             name: "Jão Pedro Neves",
             role: "Advocacia Neves",
             rating: 5,
@@ -49,7 +49,7 @@ const TestimonialsSection: React.FC = () => {
             avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop"
         },
         {
-            quote: "O talento para o design e a expertise técnica da Vertex Web são impressionantes. Eles entregaram um portfólio online que realmente captura a essência do nosso estúdio. Recomendo fortemente!",
+            quote: "O talento para o design e a expertise técnica da Vertex Tech são impressionantes. Eles entregaram um portfólio online que realmente captura a essência do nosso estúdio. Recomendo fortemente!",
             name: "Pedro Martins Ferrugem",
             role: "Studio D'Martins",
             rating: 5,
@@ -63,7 +63,7 @@ const TestimonialsSection: React.FC = () => {
             avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop"
         },
         {
-            quote: "Desde o briefing até o lançamento, a Vertex Web demonstrou um comprometimento exemplar. Eles não apenas entregaram um site visualmente deslumbrante, mas também uma plataforma robusta e fácil de gerenciar.",
+            quote: "Desde o briefing até o lançamento, a Vertex Tech demonstrou um comprometimento exemplar. Eles não apenas entregaram um site visualmente deslumbrante, mas também uma plataforma robusta e fácil de gerenciar.",
             name: "Lucas Almeida",
             role: "Diretor, Almeida & Filhos",
             rating: 5,

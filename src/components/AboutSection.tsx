@@ -61,11 +61,11 @@ const AboutSection: React.FC = () => {
                     {/* Lado esquerdo: Textos */}
                     <div className={getTransitionClasses('delay-100')}>
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-snug">
-                            A <span className="text-brand-light-purple">Vertex Web</span> é especializado<br />em Desenvolvimento de Sites
+                            A <span className="text-brand-light-purple">Vertex Tech</span> é especializado<br />em Desenvolvimento de Sites
                         </h2>
                         <div className="space-y-4 text-gray-600 dark:text-gray-400 leading-relaxed">
                             <p>
-                                Na Vertex Web, somos mais do que uma agência de desenvolvimento; somos arquitetos da sua presença digital. Nossa paixão é combinar design inovador com tecnologia de ponta para criar websites que não apenas impressionam visualmente, mas também geram resultados concretos.
+                                Na Vertex Tech, somos mais do que uma agência de desenvolvimento; somos arquitetos da sua presença digital. Nossa paixão é combinar design inovador com tecnologia de ponta para criar websites que não apenas impressionam visualmente, mas também geram resultados concretos.
                             </p>
                             <p>
                                 Acreditamos que um ótimo site é a espinha dorsal de qualquer negócio moderno e a ferramenta mais poderosa para o crescimento.
