@@ -55,7 +55,7 @@ const AboutSection: React.FC = () => {
     return (
         // Elemento principal da seção com a referência anexada.
         <section id="about" ref={sectionRef} className="min-h-screen flex items-center bg-brand-light-2 dark:bg-brand-dark-2 overflow-hidden">
-            <div className="container mx-auto px-6 py-20 lg:py-0">
+            <div className="container mx-auto px-6 py-20 mb-12 mt-12 lg:py-0">
                 {/* Parte Superior: Texto e Imagem */}
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center mb-5 lg:mb-5">
                     {/* Lado esquerdo: Textos */}

@@ -41,7 +41,7 @@ const ResponsiveSitesSection: React.FC = () => {
     return (
         // Elemento da seção com a referência para a animação.
         <section id="responsive" ref={sectionRef} className="min-h-screen flex flex-col items-center justify-center bg-brand-light dark:bg-brand-dark overflow-hidden">
-            <div className="container mx-auto px-6 py-20 lg:py-0 text-center">
+            <div className="container mx-auto px-6 py-20 lg:py-0 mb-12 mt-12 text-center">
                 {/* Imagem no topo */}
                 <div className={`flex justify-center items-center mb-12 lg:mb-16 ${getTransitionClasses('delay-100')}`}>
                     <img

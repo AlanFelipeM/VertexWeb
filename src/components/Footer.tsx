@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
                     <div className={getTransitionClasses('delay-300')}>
                         <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-4">Contato</h4>
                         <ul className="space-y-3">
-                            <li><a href="mailto:vertextech@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-custom-purple-1 dark:hover:text-white transition-colors">vertextech@gmail.com</a></li>
+                            <li><a href="mailto:vertextechaa@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-custom-purple-1 dark:hover:text-white transition-colors">vertextechaa@gmail.com</a></li>
                             <li><a href="tel:+5511999999999" className="text-gray-600 dark:text-gray-400 hover:text-custom-purple-1 dark:hover:text-white transition-colors">(11) 99999-9999</a></li>
                             <li className="text-gray-600 dark:text-gray-400">São Roque, SP - Brasil</li>
                         </ul>
