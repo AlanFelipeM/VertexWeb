@@ -1,1 +1,1 @@
-Site da VertexTech
+Site da VertexTech.
