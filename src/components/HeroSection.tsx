@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
        <div 
         className="absolute inset-0 z-0 pointer-events-none block dark:hidden"
         style={{
-        backgroundColor: '#fff',
+        backgroundColor: '#ffff',
         backgroundImage: `
             linear-gradient(0deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
             linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px)
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
             </p>
         </div>
 
-        <div className="mt-12 z-10 w-full [animation-delay:0.5s]">
+        <div className="mt-3 z-10 w-full [animation-delay:0.5s]">
              <img 
                 src="src/img/img-home.png"
                 alt="Área de trabalho com múltiplos dispositivos exibindo um projeto de design de interface"
